@@ -1,0 +1,24 @@
+[general]
+name=LER 2-Vejledning
+description=Look up the LER 2 data model: attributes, requirements and code lists, compared against your layer.
+description[da]=Slå op i LER 2-datamodellen: attributter, krav og kodelister, sammenlignet med dit lag.
+version=1.1
+changelog=1.1 - Danish/English user interface that follows the QGIS language setting. The data model content stays in Danish.
+about=LER 2-Vejledning is a lookup panel for the LER 2 data model. Search across all object types, attributes and code list values, see definitions, whether an attribute is mandatory, conditional or optional, and the exact conditions that apply. Code list values can be copied with one click. When the active layer matches an object type, the panel shows which attributes the layer has and which mandatory ones are missing. The data model is read from the public guidance pages at valideringsportalen.dk (two small JSON files over HTTPS, nothing about your project or layers is sent), cached locally and refreshed in the background, so the panel also works offline.
+about[da]=LER 2-Vejledning er et opslagspanel til LER 2-datamodellen. Søg på tværs af alle objekttyper, attributter og kodelisteværdier, se definitioner, om en attribut er obligatorisk, betinget eller frivillig, og de præcise betingelser, der gælder. Kodelisteværdier kan kopieres med ét klik. Når det aktive lag matcher en objekttype, viser panelet, hvilke attributter laget har, og hvilke obligatoriske der mangler. Datamodellen læses fra de offentlige vejledningssider på valideringsportalen.dk (to små JSON-filer over HTTPS - der sendes intet om dit projekt eller dine lag), caches lokalt og opdateres i baggrunden, så panelet også virker offline. Panelets egne tekster følger QGIS' sprog (dansk/engelsk); selve datamodellen (navne, definitioner og betingelser) er udgivet på dansk af valideringsportalen.dk og vises, som den er.
+tags=ler,ler2,utilities,data model,guidance,attributes,code lists
+tags[da]=ler,ler2,værktøjer,datamodel,vejledning,attributter,kodelister
+category=Plugins
+qgisMinimumVersion=3.0
+qgisMaximumVersion=4.99
+author=qLER ApS
+email=support@qler.dk
+license=GPL-2.0-or-later
+hasProcessingProvider=no
+icon=icon.png
+experimental=True
+deprecated=False
+server=False
+homepage=https://valideringsportalen.dk/vejledning.php
+tracker=
+repository=
